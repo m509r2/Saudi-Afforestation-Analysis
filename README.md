@@ -1,14 +1,23 @@
-# 🛒 Retail Sales Analysis (Demo Project)
+# 🛒 Retail Sales Analysis Dashboard
 
-This project demonstrates retail sales data analysis using Python and Pandas.  
-It calculates revenue, summarizes performance by city and product category, and visualizes results using Matplotlib.
+A mini data analytics project built with **Python, Pandas, and Matplotlib** to analyze and visualize sales performance across Saudi cities, product categories, and sales channels.
 
 ---
 
-## 📊 Overview
+## 📊 Project Overview
+This project demonstrates how to:
+- Clean and analyze sales data.
+- Calculate total revenue and discount-adjusted earnings.
+- Generate visual insights by city, product category, and sales channel.
+- Visualize trends in daily revenue.
 
-The dataset represents demo sales data from multiple Saudi cities — Riyadh, Jeddah, Dammam, and Tabuk.  
-The analysis shows which cities and product categories generate the most revenue, and how sales evolve over time.
+---
+
+## 🧠 Key Insights
+- **Top City:** Riyadh generated the highest total revenue (≈23,900 SAR).  
+- **Top Category:** Electronics was the most profitable category.  
+- **Channel Comparison:** Store sales slightly outperformed online sales.  
+- **Average Sale:** Each transaction averaged around 2,881 SAR in revenue.
 
 ---
 
@@ -20,7 +29,33 @@ The analysis shows which cities and product categories generate the most revenue
 ---
 
 ## 🚀 How to Run
-1. Clone this repository:
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/retail-sales-analysis-demo.git
-   cd retail-sales-analysis-demo
+   git clone https://github.com/m509r2/Retail-Sales-Analysis-Dashboard.git
+   cd Retail-Sales-Analysis-Dashboard
+Install dependencies:
+
+bash
+Copy code
+pip install pandas matplotlib
+Run the script:
+
+bash
+Copy code
+python sales_analysis.py
+The generated charts will appear inside the results/ folder.
+
+📈 Sample Outputs
+The project produces three main visualizations:
+
+Daily Revenue Trend
+
+Total Revenue by City
+
+Revenue by Product Category
+
+👤 Author
+Moha Al-Sharari
+M.Sc. Data Science – University of Tabuk
+📍 Saudi Arabia
